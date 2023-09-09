@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MisPeliculas</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="rep_password">Repetir contraseña</string>
+    <string name="register">Registrar</string>
+    <string name="info">Información</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="favorite_gener">Seleccione su genero favorito:</string>
+    <string name="check_accion">Acción</string>
+    <string name="Check_amor">Amor</string>
+    <string name="Check_aventura">Aventura</string>
+    <string name="Check_ciencia_ficcion">Ciencia ficción</string>
+    <string name="Check_comedia">Comedia</string>
+    <string name="Check_drama">Drama</string>
+    <string name="Check_terror">Terror</string>
+</resources>
