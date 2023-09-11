@@ -117,11 +117,13 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
             android:text="@string/register"
+            app:layout_constraintBottom_toTopOf="@+id/info_text_view"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/datebutton" />
+            app:layout_constraintTop_toBottomOf="@id/spinnerCity" />
 
         <TextView
             android:id="@+id/info_text_view"
@@ -225,20 +227,20 @@
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
             android:text="Fecha nacimiento"
-            app:layout_constraintBottom_toTopOf="@+id/register_button"
+            app:layout_constraintBottom_toTopOf="@id/spinnerCity"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
 
         <Spinner
             android:id="@+id/spinnerCity"
-            android:layout_width="409dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:entries = "@array/Ciudades"
+            android:entries="@array/Ciudades"
             app:layout_constraintBottom_toTopOf="@+id/register_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
